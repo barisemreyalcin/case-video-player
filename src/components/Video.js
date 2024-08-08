@@ -50,7 +50,19 @@ function Video({ component }) {
         preload="auto"
         autoPlay={isPlaying}
       />
-      {!isPlaying && <button onClick={handlePlay}>Play Video</button>}
+      {!isPlaying && (
+        <button
+          style={{
+            position: "relative",
+            top: "768px",
+            left: "200px",
+            marginBottom: "20px",
+          }}
+          onClick={handlePlay}
+        >
+          Play Video
+        </button>
+      )}
     </div>
   );
 }
