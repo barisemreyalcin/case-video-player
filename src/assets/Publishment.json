@@ -1,0 +1,86 @@
+{
+  "class": "PoodScene",
+  "Scene_Name": "Yeni Sahne",
+  "rotation": "horizontal",
+  "style": {
+    "width": "1920px",
+    "height": "1080px",
+    "@font-face": []
+  },
+  "components": [
+    {
+      "id": "mediaV-101",
+      "class": "TVideo",
+      "enabled": true,
+      "locked": false,
+      "conditions": [],
+      "style": {
+        "position": "absolute",
+        "width": "1280px",
+        "height": "723px",
+        "top": "0px",
+        "left": "0px",
+        "border-radius": "0px",
+        "background-color": "transparent",
+        "background-position": "left top",
+        "background-repeat": "no-repeat",
+        "background-size": "none",
+        "font-family": "arial",
+        "opacity": "1",
+        "filter": "blur(0px)",
+        "line-height": "1",
+        "box-shadow": "0px 0px 0px 0px rgba(0,0,0,0.75)",
+        "z-index": "1",
+        "object-fit": "contain",
+        "right": "unset",
+        "bottom": "unset"
+      },
+      "file": "https://dev-01.api.ist/videos/demo-sirket/286dab005e0547269078dd4a356ad460.mp4",
+      "info": {
+        "id": "18",
+        "name": "U-WEBOS_Cif-Altyazili",
+        "type": "Video",
+        "duration": "20",
+        "repeat": false
+      }
+    },
+    {
+      "id": "mediaV-103",
+      "class": "TVideo",
+      "enabled": true,
+      "locked": false,
+      "conditions": [],
+      "style": {
+        "position": "absolute",
+        "width": "1399px",
+        "height": "860px",
+        "top": "216.01px",
+        "left": "517.01px",
+        "border-radius": "0px",
+        "background-color": "transparent",
+        "background-position": "left top",
+        "background-repeat": "no-repeat",
+        "background-size": "none",
+        "font-family": "arial",
+        "opacity": "1",
+        "filter": "blur(0px)",
+        "line-height": "1",
+        "box-shadow": "0px 0px 0px 0px rgba(0,0,0,0.75)",
+        "z-index": "2",
+        "object-fit": "contain",
+        "right": "unset",
+        "bottom": "unset"
+      },
+      "file": "https://dev-01.api.ist/videos/demo-sirket/389aab0b694f4372bb6de4fcdd954004.mp4",
+      "info": {
+        "id": "25",
+        "name": "VOI-WEBOS_Tam-Videolar_3Nisan",
+        "type": "Video",
+        "duration": "40",
+        "repeat": true
+      }
+    }
+  ],
+  "Status": true,
+  "id": "scene"
+}
